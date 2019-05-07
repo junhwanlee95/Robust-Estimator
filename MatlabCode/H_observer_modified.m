@@ -40,12 +40,9 @@ function [Xbarhat, Dhat, Yhat] = H_observer_modified(Observation_Y, Constant_L)
 
     %% Initializing the Estimated State Values
     
-    xbarhat0 = zeros(2,1);
     xbarhat1 = zeros(2,1);
-    xbarhat2 = [27;-92];
-    dhat0 = zeros(2,1);
+    xbarhat2 = [27;-94];
     dhat1 = zeros(2,1);
-    yhat0 = zeros(2*numOfSat,1);
     yhat1 = zeros(2*numOfSat,1);
 
     Xbarhat = [xbarhat1 xbarhat2];
