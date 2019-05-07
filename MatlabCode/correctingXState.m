@@ -1,4 +1,5 @@
 function [Xcorrect,D_Sum] = correctingXState(X,D)
+
     M = size(D,1);
     N = size(X,1);
     D_Sum = D(1,:);
