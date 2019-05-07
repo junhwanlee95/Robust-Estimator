@@ -1,4 +1,5 @@
 function [D] = creatingClockDisturbance(x)
+
     N = size(x,1);
     D = [0 0];
     for i = 1:N-1
