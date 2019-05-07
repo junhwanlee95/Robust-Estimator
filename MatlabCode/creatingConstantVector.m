@@ -1,4 +1,5 @@
 function [Cl,Y] = creatingConstantVector(SatStateOutlier,Pu)
+
     numOfSat = 4;
     elapsedtime = 400;
     Cl = [zeros(2*numOfSat,1)];
