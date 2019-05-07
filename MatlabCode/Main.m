@@ -5,7 +5,7 @@ clear all;
 load('RSE_data.mat');
 
 %% Select Type of Attack
-Type = 2; % or 2
+Type = 2; % or 1
 
 if Type == 1
    [gpsPvt, gnssMeas, SatState, xState, WP, WR, SatStateOutlier, xStateOutlier, ...
