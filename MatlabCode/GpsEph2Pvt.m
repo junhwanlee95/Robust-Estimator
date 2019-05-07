@@ -1,4 +1,4 @@
-function [xM,dtsvS,vMps,dtsvSDot] = GpsEph2Pvt(gpsEph,gpsTime)
+function [xM,dtsvS,vMps,dtsvSDot] = GpsEph2Pvt(gpsEph,gpsTime);
 %[xM,dtsvS,vMps,dtsvSDot] = GpsEph2Pvt(gpsEph,gpsTime)
 %
 % Calculate sv coordinates, in ECEF frame, sv clock bias, and sv velocity
