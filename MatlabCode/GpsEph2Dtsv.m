@@ -1,4 +1,4 @@
-function [dtsvS] = GpsEph2Dtsv(gpsEph,tS)
+function [dtsvS] = GpsEph2Dtsv(gpsEph,tS);
 %[dtsvS] = GpsEph2Dtsv(gpsEph,tS)
 %
 % Calculate satellite clock bias
