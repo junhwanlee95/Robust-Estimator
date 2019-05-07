@@ -24,7 +24,7 @@ maxIter = 400;
 xstore=[xState(:,4) xState(:,8)];
 
 x = [];
-x=[0;0];
+x=[xState(1,4); xState(1,8)];
 % % % xoutlier=x;
 % % % xoutlier(outlier_index:end,2)=xoutlier(outlier_index:end,2)+attack;
 
