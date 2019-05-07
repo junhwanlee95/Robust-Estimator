@@ -1,4 +1,4 @@
-function [xyzM,dtsvS] = GpsEph2Xyz(gpsEph,gpsTime)
+function [xyzM,dtsvS] = GpsEph2Xyz(gpsEph,gpsTime);
 %[xyzM,dtsvS] = GpsEph2Xyz(gpsEph,gpsTime)
 % Calculate sv coordinates, in ECEF frame, at ttx = gpsTime
 %
