@@ -1,4 +1,4 @@
-function [xhatstore]= EKFonBiasModel(SatState,xState, WP, WR);
+function [xhatstore]= EKFonBiasModel(SatState,xState, WP, WR)
 % This is the EKF over the clock Model
 % x(k+1)= A x(k)+w(k)
 % rho (k) = f(x(k))+v(k)
