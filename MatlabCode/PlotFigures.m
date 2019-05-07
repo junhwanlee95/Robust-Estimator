@@ -2,7 +2,7 @@ clc;
 close all;
 clear all;
 
-load('RSE_20.mat');
+load('RSE_data.mat');
 
 N = length(Xhat);
 
