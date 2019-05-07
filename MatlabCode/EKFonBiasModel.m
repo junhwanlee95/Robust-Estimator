@@ -15,7 +15,6 @@ function [xhatstore]= EKFonBiasModel(SatState,xState, WP, WR)
 % [ x y z cb xdot ydot zdot cdotb]
 
 
-
 deltat=1; % positioning interval
 N = size(xState,1);% total number of steps
 maxIter = 400;
