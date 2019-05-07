@@ -77,7 +77,7 @@ for i=2:maxIter
     C=[ones(size(SatState{i},1),1) zeros(size(SatState{i},1),1); zeros(size(SatState{i},1),1) ones(size(SatState{i},1),1)];
     
     % KF Step 1: State estimate time update
-    xhat = A*xhat; % use prior value of "u“
+    xhat = A*xhat; % use prior value of "uâ€œ
     
     % KF Step 2: Error covariance time update
     SigmaX = A*SigmaX*A' + B*Q*B;
