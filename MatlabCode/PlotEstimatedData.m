@@ -1,5 +1,6 @@
 function PlotEstimatedData(xTrue, xClean, dTrue, dEstimated)
     close all;
+    
 %% Estimated Disturbance Graph
 %     M = size(dEstimated,1);
 %     K = 1:M;
