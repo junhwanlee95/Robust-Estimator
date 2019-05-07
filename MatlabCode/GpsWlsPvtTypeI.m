@@ -1,5 +1,5 @@
 function [gpsPvt,gnssMeas, SatState, xState, WP, WR, SatStateOutlier, xStateOutlier,  WPOutlier, WROutlier, attacktime] = ...
-          GpsWlsPvtTypeI(gnssMeas,allGpsEph,bRaw, mdirName)
+          GpsWlsPvtTypeI(gnssMeas,allGpsEph,bRaw, mdirName);
 %gpsPvt = GpsWlsPvt(gnssMeas,allGpsEph,bRaw)
 %compute PVT from gnssMeas
 % Input: gnssMeas, structure of pseudoranges, etc. from ProcessGnssMeas
