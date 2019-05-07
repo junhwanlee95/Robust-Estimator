@@ -1,4 +1,4 @@
-function [X, Xhat] = L_observer(SatState,Pu)
+function [X, Xhat] = L_observer(SatState,Pu);
 
     syms check_obsv;
     numOfSat = 4;
