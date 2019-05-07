@@ -9,6 +9,7 @@ N = length(Xhat);
 PlotEstimatedData(X_EKF, Xhat, ClockDisturbanceWrong, Dhat);
 
 absError = abs(Xhat - X_EKF);
+
 % absoluteError = figure;
 % subplot(2,1,1);
 % plot(1:N,absError(:,1),'b','Linewidth',3);
